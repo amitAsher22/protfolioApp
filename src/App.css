@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ephesis';
+}
+
+.backGround{
+  background-image: url("images/background-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover ;
+  height: 50vh;
+  width: 100%;
+
+  
+}
+
+.positionDivOne{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5%;
+  
+ 
+
+}
+
+
+
+.Links > ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+ 
+  
+  
+}
+
+
+
+.Categories > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.mainSectionOne{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+
+.avatar{
+  width: 20vw;
+  height: 35vh;
+  border-radius: 50%;
+  box-shadow:20px 20px 50px rgb(56, 56, 56); 
+  
+}
+
+svg{
+  
+  font-size: 3vh;
+  margin-left: 1vw;
+}
+
+hr{
+  width: 35%;
+  height: 3%;
+ border-radius: 30%;
+  background-color: orange;
+}
+
+.titleName{
+  font-weight: 100;
+  font-size: 6vw;
+}
+
+.textNav{
+  color: rgb(0, 0, 0);
+  
+  letter-spacing: 0.1vw;
+  font-weight: bold;
+  font-size: 4vh;
+}
+.textNav a {
+  text-decoration:none;
+  color:inherit;
+ }
+
+ .textNav:hover{
+  cursor: pointer;
+  color: rgb(255, 175, 4);
+ 
+}
+
+.titleWeb{
+  font-size: 5vw;
+  font-size: 5vh;
+  margin: 2%;
+
+}
+
+.title2Web{
+  font-size: 3vh;
+  color: black;
+  font-weight: 3vw;
+  padding: 4%;
+  font-family: 'Birthstone';
+}
+/* only screen and */
+@media  (max-width:800px) and (min-width:350px) {
+ 
+  .avatar{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 50%;
+    box-shadow:20px 20px 50px rgb(56, 56, 56); 
+  }
+
+  .positionDivOne{
+    display: flex;
+   justify-content: space-around;
+   gap: 10px;
+    
+    
+
+  }
+
+  .textNav{
+    display: flex;
+    font-size: 2vh;
+    font-weight: 2vw;
+    justify-content: center;
+    align-items:center
+    
+  }
+  svg{
+    font-size: 2vh;
+    margin-left: 1vw;
+  }
+  .textNav:hover{
+    cursor: pointer;
+    color: rgb(255, 175, 4);
+   
+  }
+}

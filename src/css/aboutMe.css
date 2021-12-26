@@ -1,0 +1,36 @@
+
+.backgroundAboutMe{
+  background-color: rgb(247, 247, 247);
+  height: 45%;
+  width: 100%;
+}
+
+.titleSectionTwo{
+  padding: 20px;
+  font-size: 6vh;
+  font-weight: 600;
+  text-align: center;
+  /* font-family: 'Birthstone', cursive; */
+   
+}
+
+.divSection2{
+  width: 70%;
+  margin: auto;
+}
+
+.lineCenter{
+  background-color: orange;
+  height: 4px;
+  width: 7vw;
+  margin: auto;
+ 
+  
+ 
+}
+.textSection2{
+  text-align: left;
+  font-size: 4vh;
+  line-height: 1.5;
+}
+
