@@ -1,10 +1,73 @@
 .contact_info{
   display: flex;
   justify-content: space-around;
+  font-family: 'Exo', sans-serif;
+  
 }
 
 .row1{
   border: 1px solid black;
-  padding: 30px;
+  padding: 10px 30px;
   width: 30%;
+  margin-bottom: 20px;
+}
+
+.formWord{
+  border: 1px solid black;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+
+.input100{
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+  padding: 3%;
+  border: none;
+  font-size: 2vw;
+}
+
+.titleMessage{
+  text-align: center;
+  font-size: 6vw;
+}
+
+.btnSubmit{
+  background-color: darkolivegreen;
+  color: white;
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border: none;
+  
+  
+}
+.btnSubmit:hover{
+  cursor: pointer;
+}
+
+.inputTextArea{
+  width: 45vw;
+  background-color: rgb(247, 247, 247);
+  padding: 6%;
+  border: none;
+  font-size: 1.5vw;
+ 
+  
+}
+
+.titleDeatils{
+  font-size: larger;
+  font-weight: 900;
+}
+.divBtnSubmit{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
 }
