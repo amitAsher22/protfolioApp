@@ -38,17 +38,17 @@ const sendEmail = (e) => {
     <div className="row1">
     <FcPhone/>
       <p className="titleDeatils">Phone</p>
-      <p>+972523157737</p>
+      <p className="detailsInfo">+972523157737</p>
     </div>
     <div className="row1">
     <FcFeedback/>
        <p className="titleDeatils">Email</p>
-      <p>amitasher4@gmail.com</p>
+      <p className="detailsInfo">AmitAsher4@Gmail.com</p>
     </div>
     <div className="row1">
     <FcHome/>
     <p className="titleDeatils">Address</p>
-      <p>bar Ilan 2 , Herzeliya</p>
+      <p className="detailsInfo">Bar Ilan 2, Herzliya</p>
     </div>
 
     </div>
