@@ -8,7 +8,7 @@
 .grid-container{
   display: grid;
   grid-template-areas:
-  'header header header header header '
+  'menu header header header header '
   'menu main main main right '
   'menu footer footer footer footer ';
   grid-gap: 10px;
@@ -34,11 +34,11 @@
     border: 2px solid black;
 } */
 
-.item1 { grid-area: header; background-color: rgba(44, 194, 169, 0.8);}
-.item2 { grid-area: menu; background-color: rgba(194, 192, 44, 0.8); }
-.item3 { grid-area: main; background-color: rgba(122, 44, 194, 0.8); }
-.item4 { grid-area: right; background-color: rgba(194, 44, 187, 0.8); }
-.item5 { grid-area: footer; background-color: rgba(74, 194, 44, 0.8); }
+.item1 { grid-area: header; background-color: rgba(44, 194, 169, 0.8); height: 200px;}
+.item2 { grid-area: menu; background-color: rgba(194, 192, 44, 0.8); height: 100%; }
+.item3 { grid-area: main; background-color: rgba(122, 44, 194, 0.8); height: 200px; }
+.item4 { grid-area: right; background-color: rgba(194, 44, 187, 0.8); height: 200px; }
+.item5 { grid-area: footer; background-color: rgba(74, 194, 44, 0.8); height:200px; }
 
 .grid-container > div {
   text-align: center;

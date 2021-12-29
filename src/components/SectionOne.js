@@ -19,10 +19,10 @@ const SectionOne = () => {
      </div>
      <div className='Categories'>
         <ul>
-           <li className="textNav"><a >About Me</a></li>
-           <li className="textNav"><a >MyProjects</a></li>
-           <li className="textNav"><a >MyExperience</a></li>
-           <li className="textNav"><a >Contact Me</a></li>
+           <li className="textNav">About Me</li>
+           <li className="textNav">MyProjects</li>
+           <li className="textNav">MyExperience</li>
+           <li className="textNav">Contact Me</li>
          </ul>
      </div>
      
@@ -34,7 +34,7 @@ const SectionOne = () => {
       <p className="titleWeb">web developer</p>
       <p className="title2Web">Full Stack</p>
     </div>
-    <img src={amit} className="avatar"/>
+    <img src={amit} alt="imgProfile" className="avatar"/>
     </div>
   </div> 
   );

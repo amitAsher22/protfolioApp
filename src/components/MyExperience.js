@@ -23,19 +23,19 @@ const MyExperience = () => {
          <div>
              <h1 className="titleSection">MyExperience</h1>
          </div>
-         <div  class="lineCenter1" >
+         <div  className="lineCenter1" >
             <hr/>
         </div>
         <div className="AllProjects">
             <div className="box FrontEnd">
                 <h2>Front-end</h2>
                 <div className="AllImages">
-                    <img src={html} alt="html"/>
-                    <img src={css} alt="css"/>
-                    <img src={js} alt="js"/>
-                    <img  src={vue} alt="vue"/>
-                    <img src={vuex} alt="vuex"/>
-                    <img src={react} alt="react"/>
+                    <img src={html} alt="htmlweb"/>
+                    <img src={css} alt="cssweb"/>
+                    <img src={js} alt="jsweb"/>
+                    <img  src={vue} alt="vueweb"/>
+                    <img src={vuex} alt="vuexweb"/>
+                    <img src={react} alt="reactweb"/>
                   
                 </div>
             </div>
