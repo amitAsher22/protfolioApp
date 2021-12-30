@@ -1,10 +1,10 @@
-// import React, { useState , useRef} from "react";
-// import emailjs from 'emailjs-com';
+import React, { useState , useRef} from "react";
+import emailjs from 'emailjs-com';
 import '../css/contaceMe.css'
 // import { FcPhone } from "react-icons/fc";
 // import { FcHome } from "react-icons/fc";
 // import { FcFeedback } from "react-icons/fc";
-// import { FcOk } from "react-icons/fc";
+import { FcOk } from "react-icons/fc";
 // import { FcUpload } from "react-icons/fc";
 
 // const Result = ()=>{
@@ -88,20 +88,49 @@ import '../css/contaceMe.css'
 //     </div>
 //     );
 // }
+const Result = ()=>{
+  return(
+    <p>Your message has been successfuly <FcOk/></p>
+  )
+}
 
 const ContacMe = () =>{
+
+const form = useRef();
+const [result , showResult] = useState(false)
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('Gmail123amit', 'template_dph05n3', form.current, 
+  'user_zQXamzRRd3VgShqvnB0KG')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+    showResult(true)
+};
+
+
+
+
   return(
     <>
+      <form ref={form}   onSubmit={sendEmail}>
       <div className="container">
       <div className="contact-box">
       <div className="left"></div>
       <div className="right">
         <h2 className='titleHireMe'>Hire me</h2>
-       <input type="text" className="field" placeholder="your name"/>
-       <input type="email" className="field" placeholder="your Email"/>
-       <input type="text" className="field" placeholder="your phone"/>
-      <textarea className="field area" placeholder="message"></textarea>
+       <input name="fullName" type="text" className="field" placeholder="your Full Name"  required />
+       <input name="email" type="email" className="field" placeholder="your Email" required/>
+       <input name="phone"  type="text" className="field" placeholder="your phone" required/>
+      <textarea name="message" className="field area" placeholder="message" required></textarea>
       <button className='btn'>Send</button>
+      <div className="row">
+          {result ? <Result/> : null}
+       </div>
       </div>
 
       
@@ -109,6 +138,7 @@ const ContacMe = () =>{
       </div>
 
       </div>
+      </form>
     </>
   )
 }
