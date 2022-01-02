@@ -86,17 +86,16 @@ hr{
   letter-spacing: 0.1vw;
   font-weight: bold;
   font-size: 4vh;
+ 
 }
 .textNav a {
   text-decoration:none;
   color:inherit;
  }
 
- .textNav:hover{
-  cursor: pointer;
-  color: rgb(255, 175, 4);
- 
-}
+ li.textNav a :hover{
+   cursor: pointer;
+ }
 
 .titleWeb{
   font-size: 5vw;
