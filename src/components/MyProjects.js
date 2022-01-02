@@ -1,5 +1,5 @@
 import "../css/myprojects.css"
-import googlemap from '../images/googlemap.png'
+// import googlemap from '../images/googlemap.png'
 
 
 const MyProjects = () => {

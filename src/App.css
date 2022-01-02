@@ -74,6 +74,9 @@ hr{
  border-radius: 30%;
   background-color: orange;
 }
+a{
+  all: none;
+}
 
 .titleName{
   font-weight: 100;

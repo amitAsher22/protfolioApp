@@ -19,10 +19,10 @@ const SectionOne = () => {
      </div>
      <div className='Categories'>
         <ul>
-           <a href="#aboutMe"><li className="textNav">About Me</li></a>
-           <a href="#myProjects"><li className="textNav">MyProjects</li></a>
-          <a href="#MyExperience"><li className="textNav">MyExperience</li></a> 
-          <a href="#ContactMe"><li className="textNav">Contact Me</li></a>
+           <li className="textNav"><a href="#aboutMe">About Me</a></li>
+           <li className="textNav"><a href="#myProjects">MyProjects</a></li>
+          <li className="textNav"><a href="#MyExperience">MyExperience</a> </li>
+        <li className="textNav"> <a href="#ContactMe">Contact Me</a></li>
          </ul>
      </div>
      
