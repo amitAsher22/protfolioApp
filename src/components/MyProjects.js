@@ -4,7 +4,7 @@ import googlemap from '../images/googlemap.png'
 
 const MyProjects = () => {
   return (
-    <div>
+    <div id="myProjects">
       <div className="section3">
         <h1 className="titleMyProjects">MyProjects</h1>
         <div className="lineCenter" >

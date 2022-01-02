@@ -117,7 +117,7 @@ const sendEmail = (e) => {
 
   return(
     <>
-      <form ref={form}   onSubmit={sendEmail}>
+      <form ref={form}   onSubmit={sendEmail} id="ContactMe">
       <div className="container">
       <div className="contact-box">
       <div className="left"></div>

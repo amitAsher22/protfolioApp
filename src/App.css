@@ -93,8 +93,9 @@ hr{
   color:inherit;
  }
 
- li.textNav a :hover{
-   cursor: pointer;
+ .Categories ul li:hover{
+  cursor: pointer;
+  color: orange;
  }
 
 .titleWeb{
