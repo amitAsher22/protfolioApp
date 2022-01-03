@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ephesis';
+  scroll-behavior: smooth;
 }
 
 .backGround{
@@ -46,6 +47,18 @@
   gap: 10px;
 }
 
+@media (orientation: portrait) {
+   a{
+    font-size: 50%;
+  
+   
+  }
+  li.textNav{
+    line-height: 2vh;
+    text-align: center;
+  }
+}
+
 .mainSectionOne{
   display: flex;
   flex-direction: row;
@@ -62,10 +75,21 @@
   
 }
 
+@media (orientation: portrait) {
+  .avatar{
+    width: 40%;
+  height: 55%;
+
+}
+}
+
 svg{
   
   font-size: 3vh;
   margin-left: 1vw;
+}
+svg:hover{
+  cursor: pointer;
 }
 
 hr{

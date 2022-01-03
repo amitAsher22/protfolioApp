@@ -1,6 +1,6 @@
-import { AiOutlineInstagram } from "react-icons/ai"
+import { FiGithub } from "react-icons/fi"
 import { FaFacebookF } from "react-icons/fa"
-import { SiGmail } from "react-icons/si";
+import { BsWhatsapp } from "react-icons/bs";
  import amit from ".././images/amit.jpeg"
 import '../App.css';
 
@@ -12,9 +12,9 @@ const SectionOne = () => {
     <div className="positionDivOne">
      <div className='Links'>
          <ul>
-           <li><AiOutlineInstagram/></li>
-           <li><FaFacebookF/></li>
-           <li><SiGmail/></li>
+           <li onClick={()=>{window.open('https://github.com/amitAsher22')}}><FiGithub/></li>
+           <li  onClick={()=>{window.open('https://www.facebook.com/amitasherWebDeveloper')}}><FaFacebookF/></li>
+           <li onClick={()=>{window.open('https://api.whatsapp.com/')}}><BsWhatsapp/></li>
          </ul>
      </div>
      <div className='Categories'>
