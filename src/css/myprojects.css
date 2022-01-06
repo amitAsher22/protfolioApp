@@ -14,30 +14,14 @@
   grid-gap: 10px;
   padding: 10px;
   margin: 50px;
-  /* /////////////////////////////////// */
-  /* display: grid;
-  grid-template-columns: 100px 1fr 1fr 1fr  ;
-  grid-template-rows: repeat(5, 100px);
-  grid-template-areas: 
-  "for one one one"
-  "for tree tree two "
-  "for tree tree two "
-  "for five five  five" */
-  /* ///////////////////////////// */
-  
+
 }
 
-/* .grid-item {
-  border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-} */
-/* background-color: rgba(44, 194, 169, 0.8); height: 200px; */
-.item1 { grid-area: header;height: 200px;  background-image: url("../images/googlemap.png" );   background: cover; background-repeat: no-repeat; background-size:cover; transition: transform 900ms;  }
+.item1 { grid-area: header;height: 200px; background-image: url("../images/priva.png" );   background: cover; background-repeat: no-repeat; background-size:cover; transition: transform 900ms;
+}
 .item2 { grid-area: menu; background-image: url("../images/menu.png" );   background: cover; background-repeat: no-repeat; background-size:cover; transition: transform 900ms;}
 .item3 { grid-area: main;  height: 200px; background-image: url("../images/vueOnePage.png" );   background: cover; background-repeat: no-repeat; background-size:cover;transition: transform 900ms; }
-.item4 { grid-area: right; background-color: rgba(194, 44, 187, 0.8); height: 200px; transition: transform 900ms;}
+.item4 { grid-area: right;  height: 200px; transition: transform 900ms; background-image: url("../images/googlemap.png" );   background: cover; background-repeat: no-repeat; background-size:cover; transition: transform 900ms;  }
 .item5 { grid-area: footer;  height:200px; background-image: url("../images/book.png" );   background: cover; background-repeat: no-repeat; background-size:cover; transition: transform 900ms;}
 
 .item1:hover{
@@ -77,41 +61,4 @@
 }
 
 
-/* .div1{
-  background-color: rgb(42, 50, 165);
-  width: 100%;
-  height: 100%;
- 
-  
-}
 
-.div2{
-  background-color: brown;
-  width: 100%;
-  height: 100%;
- 
-
-
-}
-.div3{
-  background-color: rgb(165, 126, 42);
-  width: 100%;
-  height: 100%;
- 
-  
-}
-
-.div4{
-  background-color: rgb(42, 165, 58);
-  width: 100%;
-  height: 100%;
-  
- 
-}
-
-.div5{
-  background-color: rgb(165, 42, 165);
-  width: 100%;
-  height: 100%;
-
-} */

@@ -15,10 +15,10 @@ const MyProjects = () => {
             <div  className="item1" onClick={()=>{window.open('https://googlemapapp.netlify.app/')}}></div>
             <div  className="item2" onClick={()=>{window.open('https://menusite.netlify.app//')}}></div>
             <div  className="item3" onClick={()=>{window.open('https://landingpagevue.netlify.app/')}}></div>
-            <div  className="item4"></div>
-            <div  className="item5" onClick={()=>{window.open('https://bookwebgoogle.netlify.app/')}}></div>
+            <div  className="item4" onClick={()=>{window.open('https://bookwebgoogle.netlify.app/')}}></div>
+            <div  className="item5" onClick={()=>{window.open('https://priva-app.herokuapp.com/')}}></div>
           
-          
+            
           </div>
 
         </div>
