@@ -14,7 +14,7 @@ const SectionOne = () => {
          <ul>
            <li onClick={()=>{window.open('https://github.com/amitAsher22')}}><FiGithub/></li>
            <li  onClick={()=>{window.open('https://www.facebook.com/amitasherWebDeveloper')}}><FaFacebookF/></li>
-           <li onClick={()=>{window.open('https://api.whatsapp.com/')}}><BsWhatsapp/></li>
+           <li onClick={()=>{window.open('https://api.whatsapp.com/send?phone=972523157737&text=Talk%20With%20Me%20:)')}}><BsWhatsapp/></li>
          </ul>
      </div>
      <div className='Categories'>
